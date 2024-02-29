@@ -1,0 +1,45 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    margin-right: 10px;
+    padding: 0 10px; /* Add padding between navigation links */
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Updated CSS for "Login" and "Write" */
+  .right-links {
+    display: flex; /* Ensure "Login" and "Write" are displayed inline */
+    align-items: center;
+  }
+  
+  .right-links a {
+    margin-right: 10px;
+    padding: 8px 12px; /* Add padding to "Login" and "Write" */
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .write:hover {
+    background-color: skyblue;
+  }
+  
