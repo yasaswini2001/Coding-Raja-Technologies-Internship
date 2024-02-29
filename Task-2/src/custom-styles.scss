@@ -1,0 +1,18 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body .bg-body-tertiary {
+  background-color: black !important;
+}
+body .navbar .nav-link {
+    color: white !important;
+  }
+  body .navbar .nav-link:hover{
+    color: rgb(107, 238, 107) !important;
+    text-shadow: 1px 1px rgb(107,237,109);
+  }
+  body .navbar .navbar-brand {
+    color: white !important;
+  }
+  .card{
+    height: 100px;
+  }
